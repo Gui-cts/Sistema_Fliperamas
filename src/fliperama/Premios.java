@@ -10,4 +10,29 @@ public class Premios {
         mediumRemaining = 10;
         smallRemaining = 20;
     }
+
+    public int getBigRemaining() {
+        return bigRemaining;
+    }
+
+    public void setBigRemaining(int bigRemaining) {
+        this.bigRemaining = bigRemaining;
+    }
+
+    public int getMediumRemaining() {
+        return mediumRemaining;
+    }
+
+    public void setMediumRemaining(int mediumRemaining) {
+        this.mediumRemaining = mediumRemaining;
+    }
+
+    public int getSmallRemaining() {
+        return smallRemaining;
+    }
+
+    public void setSmallRemaining(int smallRemaining) {
+        this.smallRemaining = smallRemaining;
+    }
+    
 }
