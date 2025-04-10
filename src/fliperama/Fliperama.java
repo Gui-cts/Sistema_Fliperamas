@@ -1,6 +1,6 @@
 package fliperama;
 
-public class fliperama {
+public class Fliperama {
     public static void main(String[] args) {
         Terminais terminal = new Terminais();
 
@@ -24,7 +24,7 @@ public class fliperama {
         terminal.getBalance(2);
         terminal.getBalance(3);
 
-        terminal.transferTickets(1, 2, 20);  
+        terminal.transferSaldo(1, 2, 20);  
 
         terminal.getBalance(1);
         terminal.getBalance(2);

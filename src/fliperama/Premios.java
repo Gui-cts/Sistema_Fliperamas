@@ -34,5 +34,31 @@ public class Premios {
     public void setSmallRemaining(int smallRemaining) {
         this.smallRemaining = smallRemaining;
     }
+
+    public int getTICKETS_TO_BIG() {
+        return TICKETS_TO_BIG;
+    }
+
+    public int getTICKETS_TO_MEDIUM() {
+        return TICKETS_TO_MEDIUM;
+    }
+
+    public int getTICKETS_TO_SMALL() {
+        return TICKETS_TO_SMALL;
+    }
+
+    public String getBIG_PRIZE() {
+        return BIG_PRIZE;
+    }
+
+    public String getMEDIUM_PRIZE() {
+        return MEDIUM_PRIZE;
+    }
+
+    public String getSMALL_PRIZE() {
+        return SMALL_PRIZE;
+    }
+    
+    
     
 }
