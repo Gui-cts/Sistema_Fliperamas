@@ -4,12 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Terminais {
-    // Usando um mapa para armazenar os cartões por número de cartão
+
     private Map<Integer, Cartoes> cartoesMap;
     private Premios premios;
 
     public Terminais() {
-        // Inicializando o mapa
+
         this.cartoesMap = new HashMap<>();
         this.premios = new Premios();
 
